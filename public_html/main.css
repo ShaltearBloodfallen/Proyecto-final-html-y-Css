@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2019, 8:16:48 PM
+    Author     : fr.pena
+*/
+
+.header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image:url(Imagenes/daily.jpg);
+    background-position: 100% 100%;
+    position: relative;
+    height: 200px;
+}
+
+.menu-position {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu-position ul {
+    margin: 0;
+    background-color: black;
+}
+
+.menu-position li {
+    display: inline-block;
+    width: 15%;
+    padding: 10px 0;
+}
+
+.menu-position li a {
+    color: white;
+    text-decoration: none;
+}
+
+.searchButton {
+        display: inline-block;
+        width: 35px;
+        height: 25px;
+        border: 1px solid #ffffff;
+        background-color: #cecece;
+        text-align: center;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 15px;
+}
+
+.searchTerm {
+    height: 20px;
+    display: inline-block;
+}
+
+
+.main-section {
+    width: 60%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    max-height: 350px;
+}
+.main-section .main-image{
+    width: 55%;
+    max-height: 350px;
+}
+
+.main-section .main-text-container {
+    width: 43%;
+}
+
+.inicio.main-section {
+    display: block;
+    position: relative;
+}
+
+.inicio.main-section .main-image{
+    width: 100%;
+}
+
+.inicio.main-section .main-text-container {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+.inicio.main-section .main-text-container .main-header-text,
+.inicio.main-section .main-text-container .image-text
+{
+    padding: 0 10px;
+}
+
+.articles-container {
+    width: 80%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article {
+    margin: 50px 0 0 0;
+    width: 25%;
+}
+
+.article a {
+    color: black;
+    text-decoration: none;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article p {
+    color: #333333;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.content {
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+.content h1 {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+.content .complete-article-image {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content .complete-article-text {
+    width: 800px;
+    margin: 20px auto 50px;
+}
+
+.footer {
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    background-color: #626262;
+    padding: 10px 0;
+}
